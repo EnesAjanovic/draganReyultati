@@ -1,0 +1,21 @@
+.wrapper{
+    background-color: #001e28;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    align-items: center;
+
+}
+
+.order {
+    display: flex;
+    padding: 0.313rem;
+    justify-content: space-between;
+}
+
+div h3{
+    margin-bottom: 0;
+    vertical-align: middle;
+    margin-top: 1.25rem;
+}

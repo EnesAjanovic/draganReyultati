@@ -1,0 +1,70 @@
+.live{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    background-color: #eee;
+    border-radius: 0.5rem;
+    font-size: 0.813rem;
+    font-weight: bold;
+    color: #555e61;
+    padding: 0.313rem;
+}
+.title p {
+    margin-bottom: 0;
+    margin-left: 0.625rem;
+}
+
+.title p:hover{
+    text-decoration: underline;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    border-bottom: 0.063rem solid #eee;
+    margin-top: 0.063rem;
+    cursor: pointer;   
+}
+
+.info:hover{
+    background-color: #eee;
+    transition: all 0.4s ease; 
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+}
+.time p {
+    font-size: 0.813rem;
+    margin-bottom: 0;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.25rem;
+    width:15.625rem;
+}
+.team p {
+    margin-bottom: 0;
+    font-size: 0.813rem;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:6.25rem;
+}
+.score p {
+    margin-bottom: 0;
+   
+}
+
+
